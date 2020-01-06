@@ -1,6 +1,4 @@
-package com.company.view;
-
-import com.company.view.BeatModelInterface;
+package com.company.model;
 
 import javax.sound.midi.*;
 import java.util.ArrayList;
