@@ -1,5 +1,8 @@
 package com.company.model;
 
+import com.company.view.BPMObserver;
+import com.company.view.BeatObserver;
+
 public interface BeatModelInterface {
     void initialize();
     void on();
