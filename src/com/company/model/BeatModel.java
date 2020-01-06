@@ -1,5 +1,8 @@
 package com.company.model;
 
+import com.company.view.BPMObserver;
+import com.company.view.BeatObserver;
+
 import javax.sound.midi.*;
 import java.util.ArrayList;
 
@@ -126,4 +129,5 @@ public class BeatModel implements BeatModelInterface, MetaEventListener {
         }
         return event;
     }
+
 }
