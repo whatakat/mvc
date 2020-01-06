@@ -1,4 +1,4 @@
-package com.company;
+package com.company.view;
 
 public interface BeatModelInterface {
     void initialize();
