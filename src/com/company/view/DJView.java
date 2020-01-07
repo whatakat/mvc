@@ -1,5 +1,6 @@
 package com.company.view;
 
+import com.company.controller.ControllerInterface;
 import com.company.model.BeatModelInterface;
 
 import javax.swing.*;
@@ -26,7 +27,7 @@ public class DJView implements ActionListener, BeatObserver,BPMObserver {
     JMenuItem startMenuItem;
     JMenuItem stopMenuItem;
 
-    public DJView(Controllerinterface controller, BeatModelInterface model){
+    public DJView(ControllerInterface controller, BeatModelInterface model){
         this.controller = controller;
         this.model = model;
         model.registerObserver((BeatObserver)this);
